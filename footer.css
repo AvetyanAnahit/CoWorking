@@ -1,0 +1,102 @@
+.social-iconsfb-hover, .social-iconsg-hover, .social-iconsg, .social-iconsmail-hover, .social-iconsvk-hover, 
+.social-iconsfb, .social-iconsmail, .social-iconstwitter-hover, .social-iconstwitter, .social-iconsvk
+{ display: inline-block; background: url('./psd/social_icons_sprite.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left; }
+
+.footer{
+    height:80px;
+    background: #27273e;
+}
+
+
+.footer_info{
+    float: left;
+    width: 260px;
+    padding: 2px;
+    text-align: left;
+    color: #ffffff;
+}
+p.copyright{
+    margin-bottom: 0;
+    font-family: 'GothamPro-Light';
+    font-size: 14px;
+}
+
+.information__link{
+    color: #ffffff;
+}
+
+.text__bold{
+    font-family:  'GothamPro-Bold';
+}
+
+.footer_logo{
+    position: absolute;
+    left: calc(50% - 28px);
+    margin-top: 10px;
+}
+
+.social{
+    float: right;
+    color: #ffffff;
+    margin-top: 15px;
+
+}
+
+.social__title{
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-family: 'GothamPro-Bold';
+    
+}
+.social-list{
+    padding: 0;
+}
+.social__item{
+    margin-right: 5px;
+}
+.social__link span {
+    background: url('./psd/social_icons_sprite.png')  no-repeat;
+    display: block;
+}
+
+.social__link-vk span {
+    background-position: -0px -60px; width: 20px; height: 20px;
+}
+.social__link-vk span:hover {
+    background-position: -20px -20px; width: 20px; height: 20px;
+}
+.social__link-fb span {
+    background-position: -40px -20px; width: 20px; height: 20px;
+}
+.social__link-fb span:hover{
+    background-position: -0px -0px; width: 20px; height: 20px;
+}
+
+.social__link-g span {
+    background-position: -40px -0px; width: 20px; height: 20px;
+    }
+ .social__link-g span:hover{
+    background-position: -20px -0px; width: 20px; height: 20px;
+    }
+
+  .social__link-twitter span {
+    background-position: -40px -40px; width: 20px; height: 20px;
+        }
+  .social__link-twitter span:hover{
+    background-position: -20px -40px; width: 20px; height: 20px;
+        }
+
+  .social__link-mail span {
+    background-position: -0px -40px; width: 20px; height: 20px;
+            }
+  .social__link-mail span:hover{
+    background-position: -0px -20px; width: 20px; height: 20px;    
+            }
+
+ .social ul, h4{
+     margin: 0;
+ }
+.social-list li{
+    display: inline-block;
+    list-style-type: none;
+}

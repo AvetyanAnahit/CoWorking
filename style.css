@@ -1,0 +1,31 @@
+@import "fonts.css";
+@import "header1.css";
+@import "footer.css";
+@import "navigation.css";
+@import "home.css";
+ 
+
+
+body{
+   height: 100%;
+   margin: 0;
+}
+.wrapper{
+    min-height: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container{
+    overflow: hidden;
+    width: 1060px;
+    min-height: 100%;
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+
+
+

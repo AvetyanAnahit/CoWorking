@@ -1,0 +1,45 @@
+@font-face{
+    font-family: "GothaProBla" ;
+    src: url("./Fonts/GothaProBla.otf") format("otf"),
+    url("./Fonts/GothamPro-Black.eot") format("eot"),
+    url("./Fonts/GothamPro-Black.svg") format("svg"),
+    url("./Fonts/GothamPro-Black.woff") format("woff"),
+    url("./Fonts/GothamPro-Black.ttf") format("ttf");
+
+}
+ @font-face {
+     font-family:"GothaProBlaIta";
+     src: url("Fonts/GothaProBlaIta.otf") format(otf);
+ }  
+
+
+@font-face {  
+    font-family: 'GothamPro-Bold';  
+    src: url('./Fonts/GothamPro-Bold.eot?#iefix') format('embedded-opentype'),
+    url('./Fonts/GothamPro-Bold.otf')  format('opentype'),
+    url('./Fonts/GothamPro-Bold.woff') format('woff'), 
+    url('./Fonts/GothamPro-Bold.ttf')  format('truetype'), 
+    url('./Fonts/GothamPro-Bold.svg#GothamPro-Bold') format('svg');
+
+}
+
+@font-face {
+    font-family: "GothamPro-Light" ;
+    src: url("./Fonts/GothamPro-Light.eot") format('eot'),
+     url("./Fonts/GothamPro-Light.otf") format('opentype'),
+     url("./Fonts/GothamPro-Light.svg") format('svg'),
+     url("./Fonts/GothamPro-Light.ttf") format('truetype'),
+     url("./Fonts/GothamPro-Light.woff") format('woff');
+
+
+}
+
+
+@font-face {
+    font-family: 'OpenSans-Regular';
+    src: url('./Fonts/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+    url('./Fonts/OpenSans-Regular.woff') format('woff'),
+    url('./Fonts/OpenSans-Regular.ttf')  format('truetype'),
+    url('./Fonts/OpenSans-Regular.svg#OpenSans-Regular') format('svg');
+  }
+  

@@ -1,0 +1,83 @@
+.pagination {
+    text-align: center;
+    margin: 6px 0;
+    display: inline-block;
+   left: calc(50% - 220px);
+   position: relative;
+  }
+
+  .pagination__title {
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "GothamPro-Light";
+    font-size: 14px;
+    color: #656464;
+    margin-right: 20px;
+  }
+
+
+
+.pagination__btn {
+    display: inline-block;
+    text-decoration: none;
+    vertical-align: middle;
+    color: #221f1f;
+  }
+
+
+
+.pagination__btn_active {
+    color: #bebdbd;
+  }
+  
+  .pagination-list {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 0;
+  }
+  .pagination__btn_active:before{
+      content: "\003C";
+  }
+  .pagination__btn_next:after{
+    content: "\003E";
+    font-family: "GothamPro-Light";
+    font-size: 14px;
+    color: #242121;
+}
+  
+  .pagination__item {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+
+.pagination__link {
+    text-decoration: none;
+    width: 22px;
+    height: 22px;
+    line-height: 25px;
+    text-align: center;
+    display: block;
+    font-family: 'GothamPro-Bold';
+    font-size: 14px;
+    color: #221f1f;
+    transition: .3s;
+  }
+ 
+  .pagination__item_acive .pagination__link{
+    color: #ec1e79; 
+    background-color: #221f1f;
+    border-radius: 3px;
+  }
+  .pagination__link:hover{
+    color: #ec1e79; 
+    background-color: #221f1f;
+    border-radius: 3px;
+  }
+  
+
+  /*.pagination__item_active .pagination__link {
+    color: #ffffff;
+    background-color: #ec1e79;
+    border-radius: 3px;
+  }*/

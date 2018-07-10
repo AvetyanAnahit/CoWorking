@@ -1,0 +1,41 @@
+
+.breadcrumbs{
+    font-family: "GothamPro-Light";
+    font-style: italic;
+    font-size: 14px;
+    list-style-type: none;
+    padding: 0;
+    margin-top: 36px;
+    margin-bottom: 18px;
+}
+.breadcrumbs__item{
+    display: inline-block;
+    
+}
+
+.breadcrumbs__item:first-child:before{
+    display: none;
+}
+
+
+.breadcrumbs__item:last-child{
+    margin-right: 0;
+
+}
+
+.breadcrumbs__link{
+    color: #ec1e79;
+    font-size: 14px;
+    font-family:  "GothamPro-Light" ;
+   
+}
+.breadcrumbs__link_active{
+    color: #221f1f;
+    text-decoration: none;
+}
+
+.breadcrumbs__item::before{
+    content: '/';
+    color: #221f1f;
+    font-family: GothamProLightItalic;
+}
